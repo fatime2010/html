@@ -1,0 +1,34 @@
+h1{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 55px;
+   
+        
+        
+}
+.nn{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.bg{
+    
+    background-image: url(https://patch.com/img/cdn/users/22035991/2013/10/raw/22638ce748cb0a379524b1d8f77faf68.jpg?width=1200    );
+ 
+    
+    background-position: cover;
+
+}
+.ii{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff5323;
+    
+        text-align: center;  
+         
+         
+}
+
