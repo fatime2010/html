@@ -1,51 +1,50 @@
 .qq{
-    margin-left: 270px;
-    margin-top: 30px;
-   color: white;
-   word-spacing: 30px;
-   font-family: 'Roboto', sans-serif;
-}
-.ww{
+    padding-left: 500px;
     color: white;
     font-family: 'Roboto', sans-serif;
-    
-    margin-left: 100px;
+    word-spacing: 30px;
+}
+.button{
+    border-radius: 30px;
+    width: 100px;
+    height: 32px;
+   background-color: #ff30c8;
+    color: white;
+    outline: none; 
+    border: 0;
+}
+.button2{
+    border-radius: 30px;
+    background-color: #ff30c8;
+    color: white;
+    outline: none; 
+    border: 0;
+    width: 130px;
+    height: 42px;
+    margin-left: 180px;
+} 
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+   padding-left: 180px;
+   padding-top: 180px;
+}
+h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 180px;
     font-size: 40px;
+    
 }
-.ee{
+p{
     color: white;
     font-family: 'Roboto', sans-serif;
-    margin-left: 100px;
-    font-size: 20px;
+    padding-left: 180px;
+    font-size: 13px;
     
 }
-.rr{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 100px;
-}
-.ii{
-    margin-top: 200px;
-    margin-bottom: 20px;
-   
-    margin-left: 100px;
-   
-    width: 150px;
-    
-    
-}
-.tt{
-    margin-top:20px ;
-   
-}
-.yy{
-    margin-bottom: 200px;
-}
-.oo{
-    width: 700px;
-   margin-left: 750px;
-   margin-top: 150px;
-   
-   
-    
+img{
+   margin-left: 900px;
+  margin-bottom: -500px;
 }
