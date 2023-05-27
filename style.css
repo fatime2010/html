@@ -1,249 +1,175 @@
-.header {
-    padding: 45px 190px;
-}
-
-.header,
-.menu-wrapper,
-.menu-items-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu-items-wrapper {
-    list-style-type: none;
-    gap: 35px;
-}
-
-.menu-items-wrapper li a {
-    font-size: 16px;
-    color: #B8BECD;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.menu-items-wrapper .active a {
-    color: #FB8F1D;
-}
-
-.btn {
-    padding: 15px 46px;
-    background: transparent;
-    border: 0;
-    border-radius: 8px;
-}
-
-.btn-outline {
-    border: 1px solid #FB8F1D;
-    color: #FB8F1D;
-}
-
-.btn-fill {
-    background-color: #FB8F1D;
-    color: #fff;
-}
-
-.btn-wrapper .btn:first-child {
-    margin-left: 34px;
-}
-
-.btn-wrapper .btn:last-child {
-    margin-left: 18px;
-}
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 72px 105px 0 190px;
-}
-
-.title {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 80px;
-    color: #202336;
-}
-
-.subtitle {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #202336;
-    margin-top: 74px;
-}
-
-.row {
-    display: flex;
-    gap: 30px;
-    margin-bottom: 35px;
-}
-
-.mt-48 {
-    margin-top: 48px;
-}
-
-.mt-35 {
-    margin-top: 35px;
-}
-
-.select {
-    border: 0.8px solid #AFB0B9;
-    border-radius: 8px;
-    padding: 10px 31px;
-}
-
-.fd{
-    margin-left: 150px;
-    font-size: 22px;
-}
-.Raja{
-    height: 240px;
-    margin-left: 150px;
-    margin-top: 45px;
+.Header{
+    background-color: black;
+    height: 50px;
     
 }
-.Ampat{
-    height: 40px;
-    width: 100px;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    padding-left: 10px;
-    padding-top: 10px;
-    margin-left: 148px;
-    margin-top: -45px;
-    position: relative;
-    background-color: white;
-}
-.Indonesia{
-    font-size: 8px;
-    color: rgb(163, 162, 162);
-}
-.Fanjingshan{
-    margin-top: -272px;
-    height: 240px;
-    margin-left: 360px;
-}
-.China{
-    margin-left: 360px;
-    height: 40px;
-    width: 100px;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    padding-left: 10px;
-    padding-top: 10px;
-    position: relative;
-    background-color: white;
-    margin-top: -70px;
-}
-.china{
-    font-size: 8px;
-    color: rgb(163, 162, 162);
-}
-.Vevey{
-    margin-top: -267px;
-    height: 242px;
-    margin-left: 571px;
-}
-.Switzerland{
-    height: 40px;
-    width: 100px;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    padding-left: 10px;
-    padding-top: 10px;
-    position: relative;
-    background-color: white;
-    margin-top: -70px;
-    margin-left: 560px;
-}
-.switzerland{
-    font-size: 8px;
-    color: rgb(163, 162, 162);
-}
-.Scadar{
-    margin-top: -267px;
-    height: 242px;
-    margin-left: 780px;
-}
-.Montenegro{
-    height: 40px;
-    width: 100px;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    padding-left: 10px;
-    padding-top: 10px;
-    position: relative;
-    background-color: white;
-    margin-top: -70px;
-    margin-left: 780px;
-}
-.montenegro{
-    font-size: 8px;
-    color: rgb(163, 162, 162);
-}
-.guides{
-    font-size: 31px;
-    margin-left: 150px;
-    margin-top: 250px;
-}
-.packed{
-    margin-left: 150px;
-    color: rgb(163, 162, 162);
-    font-size: 14px;
-}
-.IMg{
-    height: 400px;
-    margin-left:530px ;
-    margin-top: -270px;
-}
-.orange-button{
-    height:35px ;
-    width:120px ;
-    border-radius: 4px;
-    background-color: rgb(254, 138, 30);
-    border: 1px solid rgb(254, 138, 30);
+.header{
+    margin-top:-25px;
+    padding-left:1000px ;
     color: white;
-    font-size: 13px;
-    margin-left: 150px;
-    margin-top: 30px;
 }
-
-.Testimonials{
-    margin-left: 150px;
-    font-size: 24px;
-    margin-top: 80px;
+.bang{
+    font-size: 21px;
+    padding-top: 13px;
+    padding-left: 20px;
 }
-.stars{
-     margin-left: 150px;
-     margin-top: 80px;
-}
-.lorem{
-    margin-left: 150px;
-    margin-top: 20px;
-}
-.Edward{
-    margin-left: 150px;
-    margin-top: 20px;
-}
-.Founder{
-     margin-left: 150px;
-     margin-top: 10px;
-     font-size: 12px;
-      color: rgb(61, 61, 61);
-}
-.iMG{
-    height: 300px;
-     margin-left:840px ;
-     margin-top: -250px;
-}
-
+.unlock{
    
+    margin-left: 637px;
+}
+.Unlock{
+    background-color: rgb(249, 224, 29);
+    height: 90px;
+}
+.search{
+    margin-left: 638px;
+    margin-top: 15px;
+    background-color: black;
+    width: 187px;
+    border-radius:73px ;
+    height:25px ;
+    color: white;
+    padding-left: 22px;
+    padding-top: 10px;
+    font-size: 13px;
+    
+}
+.font{
+font-size: 17px;
+margin-top: -25px;
+padding-left: 810px;
+}
+
+.Bang{
+    padding-left: 164px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+.w{
+    padding-top: 95px;
+    padding-left: 160px; 
+    font-size: 30px;  
+}
+.they{
+    padding-left: 164px;
+     margin-top: -5px;
+}
+.box{
+    background-color: rgb(255, 237, 215);
+    border-radius: 10px;
+}
+.q{
+    color: white;
+    padding-left: 235px;
+    margin-top: -128px;
+}
+.service{
+    font-size: 20px;
+    padding-left: 78px; 
+    
+    color: white;
+   display: inline;
+}
+.FOnt{
+    padding-left:130px ;
+    padding-top: 10px;
+    font-size: 35px;
+}
+.box1{
+    background-color: blue;
+    height: 150px;
+    width: 280px;
+    margin-left:800px ;
+    margin-top: -60px;
+    border-radius: 10px;
+}
+.this{
+    font-size: 12px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.get{
+    font-size: 9px;
+    color: white;
+    padding-left: 38px;
+}
+.button{
+  
+    margin-left:890px ;
+    
+}
+.it{
+    font-size: 24px;
+    padding-left: 50px;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.box2{
+    background-color: #fefec4;
+    height: 300px;
+}
+.box3{
+ margin-top: -180px;
+ background-color: white;
+ border: 1px solid white;
+ width: 250px;
+ height: 120px;
+ margin-left: 50px;
+ border-radius: 5px;
+}
+.check{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.u{
+    padding-left: 5px;
+    padding-top: 12px;
+}
+.s{
+    padding-left: 5px;
+    padding-top: 12px;
+    font-size: 13px;
+}
+.box4{
+    margin-top: -119px;
+ background-color: white;
+ border: 1px solid white;
+ width: 250px;
+ height: 120px;
+ margin-left: 330px;
+ border-radius: 5px;
+}
+.check{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.e{
+    padding-left: 5px;
+    padding-top: 12px;
+}
+.y{
+    padding-left: 5px;
+    padding-top: 12px;
+    font-size: 13px;
+}
+.box5{
+    margin-top: -119px;
+    background-color: white;
+    border: 1px solid white;
+    width: 250px;
+    height: 120px;
+    margin-left: 610px;
+    border-radius: 5px;
+}
+.b{
+    padding-left: 5px;
+    padding-top: 12px;  
+}
+.s{
+    padding-left: 5px;
+    padding-top: 12px;
+    font-size: 13px;  
+}
